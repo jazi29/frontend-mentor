@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pod request access landing page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/favicon-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="overlay"></div>
+
+      <div class="container-wrapper">
+        <header>
+          <div class="logo">
+            <img src="assets/logo.svg" alt="logo" />
+          </div>
+          <div class="logo-mobile">
+            <img src="assets/logo-mobile.svg" alt="logo" />
+          </div>
+        </header>
+        <main>
+          <div class="main-info">
+            <div class="main-text">
+              <h1>Publish your podcasts <span>everywhere.</span></h1>
+              <p>
+                Upload your audio to Pod with a single click. We’ll then
+                distribute your podcast to Spotify, Apple Podcasts, Google
+                Podcasts, Pocket Casts and more!
+              </p>
+            </div>
+            <div class="main-detail">
+              <form action="#" name="form" id="form" novalidate>
+                <input
+                  type="email"
+                  placeholder="Email address"
+                  name="post"
+                  id="post"
+                />
+                <input type="submit" value="Request Access" id="submit" />
+              </form>
+              <p class="error-message" id="error-message">
+                Oops! Please add your email
+              </p>
+              <p class="check-message" id="check-message">
+                Oops! Please check your email
+              </p>
+              <div class="social">
+                <img src="assets/spotify.svg" alt="spotify" />
+                <img src="assets/apple-podcast.svg" alt="apple-podcast" />
+                <img src="assets/google-podcasts.svg" alt="google-podcasts" />
+                <img src="assets/pocket-casts.svg" alt="pocket-casts" />
+              </div>
+            </div>
+          </div>
+
+          <div class="image-container">
+            <div class="image-host"></div>
+            <div class="image-host-tablet"></div>
+          </div>
+        </main>
+        <footer>
+          <img src="assets/bg-pattern-dots.svg" alt="bg-pattern-dots" />
+        </footer>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
